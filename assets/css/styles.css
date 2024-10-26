@@ -1,0 +1,18 @@
+:root{
+    --color-primary:#e9f1e9;
+    --color-secondary:#020811;
+    --color-accent:#1a73e8;
+    --color-background:#ffff;
+    --color-body:#333;
+    --color-headings:#090b17
+    --color-navBar-Btn:#5f6368;    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8f9fa; /* Adjust as needed */
+}
+
