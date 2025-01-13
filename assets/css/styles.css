@@ -9,7 +9,7 @@
 html{
     /*  62.5% of 16px=10px*/
     font-size:62.5%;
-    padding:10px;
+    padding:0px;
 }
 
 body{
@@ -108,3 +108,41 @@ a{
     background-color: var(--color-Btn);
     color:#fff;
 }
+
+.horizontal-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0 20px;
+    background-color: var(--color-accent);
+
+  }
+  
+  .text-content {
+    flex: 1; /* Allows text content to take available space */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between text elements */
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .img-Owner {
+    flex: 1; /* Allows image section to scale relative to the text */
+    max-width: 600px; /* Ensures a reasonable maximum width */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-accent);
+  }
+  
+  .img-Owner img {
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Constrains the image width */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
